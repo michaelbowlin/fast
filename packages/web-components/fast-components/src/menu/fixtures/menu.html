@@ -41,6 +41,43 @@
         </fast-menu-item>
     </fast-menu>
 
+    <h4>With nested submenus</h4>
+    <fast-menu>
+        <fast-menu-item role="menuitem" aria-haspopup="true">
+            Menu item 1
+            <fast-menu-item slot="nested-menu">Nested Menu item 1</fast-menu-item>
+            <fast-menu-item slot="nested-menu">Nested Menu item 2</fast-menu-item>
+            <fast-menu-item slot="nested-menu">Nested Menu item 3</fast-menu-item>
+        </fast-menu-item>
+        <fast-menu-item role="menuitem" aria-haspopup="true">
+            Menu item 2
+            <fast-menu-item slot="nested-menu">Nested Menu item 1</fast-menu-item>
+            <fast-menu-item slot="nested-menu">Nested Menu item 2</fast-menu-item>
+            <fast-menu-item slot="nested-menu">Nested Menu item 3</fast-menu-item>
+        </fast-menu-item>
+        <fast-menu-item role="menuitem" aria-haspopup="true">
+            Menu item 3
+            <fast-menu-item slot="nested-menu" aria-haspopup="true">
+                Nested Menu item 1
+                <fast-menu-item slot="nested-menu">Nested Menu item 1</fast-menu-item>
+                <fast-menu-item slot="nested-menu">Nested Menu item 2</fast-menu-item>
+                <fast-menu-item slot="nested-menu">Nested Menu item 3</fast-menu-item>
+            </fast-menu-item>
+            <fast-menu-item slot="nested-menu" aria-haspopup="true">
+                Nested Menu item 2
+                <fast-menu-item slot="nested-menu">Nested Menu item 1</fast-menu-item>
+                <fast-menu-item slot="nested-menu">Nested Menu item 2</fast-menu-item>
+                <fast-menu-item slot="nested-menu">Nested Menu item 3</fast-menu-item>
+            </fast-menu-item>
+            <fast-menu-item slot="nested-menu" aria-haspopup="true">
+                Nested Menu item 3
+                <fast-menu-item slot="nested-menu">Nested Menu item 1</fast-menu-item>
+                <fast-menu-item slot="nested-menu">Nested Menu item 2</fast-menu-item>
+                <fast-menu-item slot="nested-menu">Nested Menu item 3</fast-menu-item>
+            </fast-menu-item>
+        </fast-menu-item>
+    </fast-menu>
+
     <h4>With standard elements</h4>
     <fast-menu>
         <div role="menuitem">Menu item 1</div>
