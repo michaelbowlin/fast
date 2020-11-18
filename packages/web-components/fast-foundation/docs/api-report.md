@@ -945,9 +945,7 @@ export class MenuItem extends FASTElement {
     //
     // @internal
     subMenuRegion: AnchoredRegion;
-    // @internal
-    viewportElement: HTMLElement | null;
-    }
+}
 
 // @internal
 export interface MenuItem extends StartEnd {
