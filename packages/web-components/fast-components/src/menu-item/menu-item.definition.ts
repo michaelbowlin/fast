@@ -56,6 +56,10 @@ export const fastMenuItemDefinition: WebComponentDefinition = {
                     name: "end",
                     description: "The end slot",
                 },
+                {
+                    name: "submenu",
+                    description: "The submenu slot",
+                },
             ],
         },
     ],
