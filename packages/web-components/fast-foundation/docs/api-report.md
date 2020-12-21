@@ -942,8 +942,6 @@ export class MenuItem extends FASTElement {
     role: MenuItemRole;
     // @internal
     submenuElements: HTMLElement[];
-    // Warning: (ae-forgotten-export) The symbol "AnchoredRegion" needs to be exported by the entry point index.d.ts
-    //
     // @internal
     subMenuRegion: AnchoredRegion;
     }
